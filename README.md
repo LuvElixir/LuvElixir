@@ -1,15 +1,17 @@
-![LuvElixir · AI products built for people](.readme-assets/hero.png)
+![Archie · Founder of Luckyloading](.readme-assets/hero.png)
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
-<p align="center"><a href="https://luckyloading.com/">Luckyloading</a> · <a href="#products">Products</a> · <a href="#selected-code">Selected code</a></p>
+<p align="center"><a href="https://luckyloading.com/">Luckyloading</a> · <a href="#products">Products</a> · <a href="#in-development">In development</a> · <a href="#selected-code">Selected code</a></p>
 
-# Building AI into the way people work
+# Archie · Founder of Luckyloading
 
-I'm **Archie (LuvElixir)**, an AI product developer at [Luckyloading](https://luckyloading.com/). I build agents, creative tools, and SaaS products, with a particular interest in the steps between a promising AI response and a useful result.
+**Building an AI application company.**
 
-That work takes different forms. A team workspace keeps people and agents working from shared context. A video tool turns a script into an edit someone can keep shaping. A research service gives an agent evidence it can inspect before taking the next step.
+I'm **Archie (LuvElixir)**, founder of [Luckyloading](https://luckyloading.com/). My team and I build AI applications, working from product design and engineering through to the business behind each product.
 
-![SameDesk, Cutline.ai and BaoBaoMi product portfolio](.readme-assets/workflow.png)
+Our current products and research span collaboration, creative software, knowledge services, and market research. This GitHub brings together selected work and public engineering projects, with more applications in development.
+
+![Selected Luckyloading products](.readme-assets/workflow.png)
 
 ## Products
 
@@ -20,6 +22,14 @@ That work takes different forms. A team workspace keeps people and agents workin
 | **[BaoBaoMi · 抱抱米](https://luckyloading.com/products/baobaomi/)** | Game advertising teams | Discover, compare, and monitor creative references for their next production. |
 
 Visit the product pages for current access and availability.
+
+## In development
+
+**Pumio · A creative agent for game video**  
+An editing workspace in development, combining conversation with direct timeline controls so people and agents can work on the same video project.
+
+**Elixir Capital · Personal market research**  
+A personal research project exploring AI-assisted information analysis and market observation, with historical experiments and decision records for evaluating research methods.
 
 ## Selected code
 
@@ -37,17 +47,8 @@ A Python CLI for structured scene editing, project configuration, engine checks,
 
 `Python` · `Godot` · `CLI` · `Agent tooling`
 
-## How I build
+## Engineering
 
-```mermaid
-flowchart LR
-  A[Understand the task] --> B[Gather useful context]
-  B --> C[Build a working path]
-  C --> D[Inspect the result]
-  D --> E[Refine with feedback]
-  E --> B
-```
+Most of this work uses TypeScript and Python, with React and Next.js for interfaces. FFmpeg handles video processing, Godot provides runtime feedback for game tooling, and SQLite stores local knowledge.
 
-I care about evidence with a source, actions with visible outcomes, and creative tools that leave people room to make the final decision. Most of my work uses TypeScript, Python, React, Next.js, and FFmpeg.
-
-For product details and contact information, visit **[Luckyloading](https://luckyloading.com/)**.
+The repositories include setup instructions, architecture notes, and current development scope. For product details and contact information, visit **[Luckyloading](https://luckyloading.com/)**.
