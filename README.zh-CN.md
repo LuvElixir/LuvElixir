@@ -1,4 +1,4 @@
-![LuvElixir · 为真实工作构建 AI 产品](.readme-assets/hero.svg)
+![LuvElixir · 为真实工作构建 AI 产品](.readme-assets/hero.zh-CN.svg)
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 <p align="center"><a href="https://luckyloading.com/">Luckyloading</a> · <a href="#正在做的产品">产品</a> · <a href="#可以直接看代码的项目">公开代码</a></p>
