@@ -3,11 +3,11 @@
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 <p align="center"><a href="https://luckyloading.com/">Luckyloading</a> · <a href="#正在做的产品">产品</a> · <a href="#可以直接看代码的项目">公开代码</a></p>
 
-# 把 AI 做进人们的工作里
+# 你好，我是 Archie
 
-我是 **Archie（LuvElixir）**，在 [Luckyloading](https://luckyloading.com/) 做 AI 产品开发，方向是 Agent、创作工具与 SaaS。我关注一个具体的问题，一次看起来不错的 AI 回答，怎样才能变成真正有用的结果。
+我在 [Luckyloading](https://luckyloading.com/) 做 AI 产品，主要做团队协作和视频创作工具。这里也放了一些给 Agent 用的开发工具，源码可以直接看。
 
-围绕这个问题，我在做几类产品。团队工作台让人与 Agent 共享任务背景，视频工具把脚本变成还能继续修改的剪辑工程，研究工具则为 Agent 提供能够检查出处的知识。
+SameDesk 处理团队里的任务分工和审阅，Cutline 把脚本与素材做成能在剪映里继续修改的工程。围绕这些工作，我也在做素材研究和知识管理，方便人和 Agent 查资料、核对依据。
 
 ![SameDesk、Cutline.ai 与抱抱米产品矩阵](.readme-assets/workflow.zh-CN.png)
 
@@ -15,39 +15,32 @@
 
 | 产品 | 服务谁 | 帮助完成什么 |
 | --- | --- | --- |
-| **[SameDesk · 同桌](https://luckyloading.com/products/samedesk/)** | 与 AI 协作的团队 | 在同一个组织工作区中连接目标、背景资料、任务与审阅。 |
-| **[Cutline.ai](https://cutlineai.luckyloading.com/)** | 视频创作者与剪辑师 | 从脚本和已有素材生成可编辑的粗剪，接着完成自己的剪辑。 |
-| **[BaoBaoMi · 抱抱米](https://luckyloading.com/products/baobaomi/)** | 游戏广告创意团队 | 发现、比较与持续观察创意参考，为下一次制作积累判断。 |
+| **[SameDesk · 同桌](https://luckyloading.com/products/samedesk/)** | 与 AI 协作的团队 | 整理任务资料，分配工作，让成员与 Agent 协作并审阅结果。 |
+| **[Cutline.ai](https://cutlineai.luckyloading.com/)** | 视频创作者与剪辑师 | 把脚本和已有录屏做成粗剪，导出工程后继续在剪映里修改。 |
+| **[BaoBaoMi · 抱抱米](https://luckyloading.com/products/baobaomi/)** | 游戏广告创意团队 | 查找游戏广告素材，对比内容与来源，跟踪后续变化。 |
 
 具体开放方式与可用范围见各产品页面。
 
 ## 可以直接看代码的项目
 
 ### [MindexAI](https://github.com/LuvElixir/MindexAI)
-**让 Agent 使用的知识，能够回到出处。**
+**给 Agent 查资料时，把原文和出处一起交给它。**
 
-面向手游广告研究的本地知识中心。它保留信源快照，把知识与证据关联起来，通过审核状态和 Context Pack 为下游 Agent 提供可以检查的工作依据，并提供 REST 与 MCP 接口。
+Mindex 会保存资料快照，为整理出的结论附上原文证据。有疑问的内容可以审核，需要交给 Agent 的资料则整理成带引用的 Context Pack，通过 REST 或 MCP 读取。
 
 `TypeScript` · `SQLite` · `React` · `MCP`
 
 ### [PlayGenCLI](https://github.com/LuvElixir/PlayGenCLI)
-**让 Agent 做完一次修改，就能检查一次游戏。**
+**Agent 改完工程，就能启动 Godot 看看结果。**
 
-面向 Godot 的 Python 命令行工具，提供结构化场景编辑、项目配置、引擎检查、运行观察与文件快照，把文件修改和游戏引擎的反馈连起来。
+PlayGenCLI 可以创建场景、修改脚本和配置素材，也能调用 Godot 检查工程，获取运行记录与截图。修改前可以保存文件快照，出问题时恢复。
 
 `Python` · `Godot` · `CLI` · `Agent 工具`
 
-## 我怎样做产品
+## 技术与实现
 
-```mermaid
-flowchart LR
-  A[理解任务] --> B[整理有用的上下文]
-  B --> C[做出可运行的流程]
-  C --> D[检查实际结果]
-  D --> E[根据反馈改进]
-  E --> B
-```
+这些项目主要使用 TypeScript、Python、React 和 Next.js。视频处理会用到 FFmpeg，PlayGenCLI 面向 Godot，Mindex 则用 SQLite 保存本地知识。
 
-我在意信息能找到出处，执行有看得见的结果，创作工具给人保留最后的判断与修改空间。日常主要使用 TypeScript、Python、React、Next.js 与 FFmpeg。
+每个仓库里都写了启动方式、实现结构和当前限制。如果你对其中某个方向感兴趣，可以从对应项目的 README 开始看。
 
 产品信息与联系方式见 **[Luckyloading](https://luckyloading.com/)**。
