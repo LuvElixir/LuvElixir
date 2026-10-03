@@ -9,7 +9,7 @@
 
 围绕这个问题，我在做几类产品。团队工作台让人与 Agent 共享任务背景，视频工具把脚本变成还能继续修改的剪辑工程，研究工具则为 Agent 提供能够检查出处的知识。
 
-![上下文、Agent、创作工具与产品](.readme-assets/workflow.zh-CN.png)
+![SameDesk、Cutline.ai 与抱抱米产品矩阵](.readme-assets/workflow.zh-CN.png)
 
 ## 正在做的产品
 

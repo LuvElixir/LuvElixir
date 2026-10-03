@@ -9,7 +9,7 @@ I'm **Archie (LuvElixir)**, an AI product developer at [Luckyloading](https://lu
 
 That work takes different forms. A team workspace keeps people and agents working from shared context. A video tool turns a script into an edit someone can keep shaping. A research service gives an agent evidence it can inspect before taking the next step.
 
-![Context, agents, creative tools, and products](.readme-assets/workflow.png)
+![SameDesk, Cutline.ai and BaoBaoMi product portfolio](.readme-assets/workflow.png)
 
 ## Products
 
