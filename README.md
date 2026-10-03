@@ -1,15 +1,15 @@
-![LuvElixir · AI products built for people](.readme-assets/hero.svg)
+![LuvElixir · AI products built for people](.readme-assets/hero.png)
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 <p align="center"><a href="https://luckyloading.com/">Luckyloading</a> · <a href="#products">Products</a> · <a href="#selected-code">Selected code</a></p>
 
 # Building AI into the way people work
 
-I'm **LuvElixir**, an AI product developer at [Luckyloading](https://luckyloading.com/). I build agents, creative tools, and SaaS products, with a particular interest in the steps between a promising AI response and a useful result.
+I'm **Archie (LuvElixir)**, an AI product developer at [Luckyloading](https://luckyloading.com/). I build agents, creative tools, and SaaS products, with a particular interest in the steps between a promising AI response and a useful result.
 
 That work takes different forms. A team workspace keeps people and agents working from shared context. A video tool turns a script into an edit someone can keep shaping. A research service gives an agent evidence it can inspect before taking the next step.
 
-![Context, agents, creative tools, and products](.readme-assets/workflow.svg)
+![Context, agents, creative tools, and products](.readme-assets/workflow.png)
 
 ## Products
 
@@ -19,7 +19,7 @@ That work takes different forms. A team workspace keeps people and agents workin
 | **[Cutline.ai](https://cutlineai.luckyloading.com/)** | Video creators and editors | Turn scripts and existing footage into editable rough cuts, then continue editing. |
 | **[BaoBaoMi · 抱抱米](https://luckyloading.com/products/baobaomi/)** | Game advertising teams | Discover, compare, and monitor creative references for their next production. |
 
-Visit the product pages for current access and availability. Product source repositories have separate visibility and licensing decisions.
+Visit the product pages for current access and availability.
 
 ## Selected code
 

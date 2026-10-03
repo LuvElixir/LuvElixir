@@ -1,15 +1,15 @@
-![LuvElixir · 为真实工作构建 AI 产品](.readme-assets/hero.zh-CN.svg)
+![LuvElixir · 为真实工作构建 AI 产品](.readme-assets/hero.zh-CN.png)
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 <p align="center"><a href="https://luckyloading.com/">Luckyloading</a> · <a href="#正在做的产品">产品</a> · <a href="#可以直接看代码的项目">公开代码</a></p>
 
 # 把 AI 做进人们的工作里
 
-我是 **LuvElixir**，在 [Luckyloading](https://luckyloading.com/) 做 AI 产品开发，方向是 Agent、创作工具与 SaaS。我关注一个具体的问题，一次看起来不错的 AI 回答，怎样才能变成真正有用的结果。
+我是 **Archie（LuvElixir）**，在 [Luckyloading](https://luckyloading.com/) 做 AI 产品开发，方向是 Agent、创作工具与 SaaS。我关注一个具体的问题，一次看起来不错的 AI 回答，怎样才能变成真正有用的结果。
 
 围绕这个问题，我在做几类产品。团队工作台让人与 Agent 共享任务背景，视频工具把脚本变成还能继续修改的剪辑工程，研究工具则为 Agent 提供能够检查出处的知识。
 
-![上下文、Agent、创作工具与产品](.readme-assets/workflow.zh-CN.svg)
+![上下文、Agent、创作工具与产品](.readme-assets/workflow.zh-CN.png)
 
 ## 正在做的产品
 
@@ -19,7 +19,7 @@
 | **[Cutline.ai](https://cutlineai.luckyloading.com/)** | 视频创作者与剪辑师 | 从脚本和已有素材生成可编辑的粗剪，接着完成自己的剪辑。 |
 | **[BaoBaoMi · 抱抱米](https://luckyloading.com/products/baobaomi/)** | 游戏广告创意团队 | 发现、比较与持续观察创意参考，为下一次制作积累判断。 |
 
-具体开放方式与可用范围见各产品页面。产品介绍、源码公开和开源许可分别按项目确定。
+具体开放方式与可用范围见各产品页面。
 
 ## 可以直接看代码的项目
 
