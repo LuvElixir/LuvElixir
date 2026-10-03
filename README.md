@@ -33,14 +33,14 @@ A personal research project exploring AI-assisted information analysis and marke
 
 ## Selected code
 
-### [MindexAI](https://github.com/LuvElixir/MindexAI)
+### [MindexAI](https://github.com/LuvElixir/mindex)
 **Knowledge an agent can trace back to a source.**
 
 A local knowledge hub for mobile-game advertising research. Source snapshots, evidence-linked claims, review states, and context packs give downstream agents a more inspectable basis for their work. Exposes REST and MCP interfaces.
 
 `TypeScript` · `SQLite` · `React` · `MCP`
 
-### [PlayGenCLI](https://github.com/LuvElixir/PlayGenCLI)
+### [PlayGenCLI](https://github.com/LuvElixir/playgen-cli)
 **A build-and-observe loop for agents working in Godot.**
 
 A Python CLI for structured scene editing, project configuration, engine checks, runtime observation, and snapshots. It connects an agent's file edits with feedback from the game engine.

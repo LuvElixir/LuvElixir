@@ -33,14 +33,14 @@
 
 ## 公开项目
 
-### [MindexAI](https://github.com/LuvElixir/MindexAI)
+### [MindexAI](https://github.com/LuvElixir/mindex)
 **面向 Agent 的可追溯知识库。**
 
 Mindex 保存来源快照，将研究结论与原文证据关联，并记录审核状态。下游 Agent 可通过 REST 或 MCP 获取带引用的 Context Pack，在任务中使用这些知识。
 
 `TypeScript` · `SQLite` · `React` · `MCP`
 
-### [PlayGenCLI](https://github.com/LuvElixir/PlayGenCLI)
+### [PlayGenCLI](https://github.com/LuvElixir/playgen-cli)
 **面向 Agent 的 Godot 开发工具。**
 
 PlayGenCLI 将场景编辑、工程校验与运行观察接入同一命令行。Agent 可根据 Godot 返回的日志和截图继续修改，并通过文件快照保留可恢复的版本。
